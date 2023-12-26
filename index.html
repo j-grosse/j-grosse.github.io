@@ -38,9 +38,18 @@
         <!-- <div class="container-fluid animated-row animate" data-animate="fadeInDown"> -->
         <div class="navbar">
 
-            <a href="#slide01" id="logo" title="Jakob Grosse - Web Entwickler">
+            <script>
+                function reloadAndScroll() {
+                    window.location.hash = "";
+                    location.reload();
+                }
+            </script>
+
+            <a href="#slide01" id="logo" title="Jakob Grosse - Web Entwickler" onclick="reloadAndScroll()">
                 <img src="images/logo.png" width="40px" />
             </a>
+
+
             <div class="navigation-row">
                 <nav id="navigation">
                     <button type="button" class="navbar-toggle"> <i class="fa fa-bars"></i> </button>
@@ -368,7 +377,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item animate" data-animate="fadeInDown">
+                                <div class="item animate" data-animate="fadeInUp">
                                     <div class="portfolio-item">
                                         <div class="thumb">
                                             <img src="images/item-2.jpg" alt="">
@@ -471,8 +480,8 @@
                                                 basierend
                                                 auf CSV Dateien. Mit dem Swing GUI lassen sich die
                                                 Jahresverkaufszahlen
-                                                als PDF Datei exportieren. 
-                                            <br><br>Java, Maven, Swing
+                                                als PDF Datei exportieren.
+                                                <br><br>Java, Maven, Swing
                                             </p>
                                             <div class="card-buttons">
                                                 <a href="https://github.com/j-grosse/Lagerverwaltung-Apotheke"
