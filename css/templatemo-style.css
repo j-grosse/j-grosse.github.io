@@ -678,7 +678,7 @@ a#logo {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  transition: all 0.8s ease;
 }
 .portfolio-item .thumb-inner h4 {
   margin-bottom: 0;
@@ -700,7 +700,7 @@ a#logo {
 .portfolio-item:hover .thumb-inner {
   border-radius: 10px;
   height: 100%;
-  background-color: rgb(14, 193, 202);
+  background-color: rgba(14, 193, 202, 0.94); /* card bg color */
 }
 .portfolio-item:hover .thumb-inner h4 {
   /* margin-top: 30%; */
