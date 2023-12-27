@@ -118,7 +118,8 @@
   .owl-carousel .owl-dots {
     margin-top: 35px;
   }
-  .social-icons li a {
+  /* smaller icons on smaller screens */
+  /* .social-icons li a {
     width: 25px;
     height: 30px;
     display: inline-block;
@@ -127,7 +128,7 @@
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
-  }
+  } */
   .menu-trigger {
     margin: 0;
   }
@@ -201,7 +202,7 @@
     position: fixed;
     top: 0;
     z-index: 6666;
-    background-color: rgba(250, 250, 250, 0.1);
+    background-color: rgba(0, 250, 250, 0.15); /* menu header color on small screens */
   }
   #navigation button i {
     color: #1e1e1e;
@@ -245,6 +246,7 @@
   .collapse:not(.show) {
     display: none;
   }
+
   .navigation-menu > li {
     display: block;
     margin: 0;
@@ -274,6 +276,9 @@
     text-align: left;
     top: 100%;
     display: none;
+    backdrop-filter: blur(6px);
+
+    background-color: rgba(0, 250, 250, 0.15); /* burger menu background color */
   }
   .welcome-title {
     font-size: 60px;

@@ -60,8 +60,19 @@
         <!-- </div> -->
     </header>
 
+    <div id="video">
+        <div class="preloader">
+            <div class="">
+                <!-- <div class="preloader-bounce"> -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
     <video autoplay muted loop id="myVideo">
-        <source src="images/video-bg.mp4" type="video/mp4">
+        <source src="images/video-bg.mp4" type="video/mp4"> <!-- background video by ArtDio2000 -->
     </video>
 
     <div id="fullpage" class="fullpage-default">
@@ -69,8 +80,9 @@
         <div class="section animated-row" data-section="slide01">
             <div class="section-inner">
                 <div class="welcome-box">
-                    <h1><span class="welcome-title animate" data-animate="fadeInDown">Jakob Grosse</span>
-                    </h1>
+                    <div class="hero-image"></div>
+                    <h4><span class="welcome-title animate" data-animate="fadeInDown">Jakob Grosse</span>
+                    </h4>
                     <br>
                     <br>
                     <br>
@@ -91,17 +103,18 @@
                 <div class="about-section">
                     <div class="row justify-content-center">
                         <div class="col-lg-8 wide-col-laptop">
+                            <div class="animate" data-animate="fadeInDown">
+                                <!-- <span>About</span> -->
+                                <h2>About</h2>
+                            </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <figure class="about-img animate" data-animate="fadeInLeft"><img src="images/profile.jpg"
-                                            class="rounded" width="80%" alt=""></figure>
+                                    <figure class="about-img animate" data-animate="fadeInLeft"><img
+                                            src="images/profile.jpg" class="rounded" width="70%" alt="">
+                                    </figure>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="about-contentbox">
-                                        <div class="animate" data-animate="fadeInDown">
-                                            <!-- <span>About</span> -->
-                                            <h2>About</h2>
-                                        </div>
                                         <div class="animate" data-animate="fadeInUp">
                                             <br>
                                             <p>Meine Reise als Entwickler begann 2016, als ich meine eigene
@@ -269,61 +282,122 @@
                                     <img class="certificate-item" src="images/certificate-web-development.jpg"
                                         width="80%" />
                                     <br />
-                                    <img class="certificate-item animate" data-animate="zoomIn"
-                                        src="images/certificate-java-programming-ii.jpg" width="80%" />
+                                    <img class="certificate-item" src="images/certificate-java-programming-ii.jpg"
+                                        width="80%" />
                                 </div>
 
-                                <div class="col-md-4 animate" data-animate="fadeInRight">
-                                    <h3>Frontend</h3>
-                                    <h4>
-                                        React / Typescript
-                                        <br>Tailwind CSS
-                                    </h4>
-                                    <br>
-                                    <br>
-                                    <h3>Backend</h3>
-                                    <h4>
-                                        Node / Express
-                                        <br>Next JS
-                                    </h4>
+                                <div class="col-md-4 animate dev-icons" data-animate="fadeInRight">
+                                    <div>
+                                        <h3>Frontend</h3>
+                                        <h4>React
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                                                alt="react" width="30" height="30" />
+
+                                            <br>Typescript
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+                                                alt="typescript" width="30" height="30" />
+
+
+                                            <br>Tailwind
+                                            <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg"
+                                                alt="tailwind css" width="30" height="30" />
+                                        </h4>
+                                        <br>
+                                        <br>
+                                    </div>
+                                    <div>
+                                        <h3>Backend</h3>
+                                        <h4>Node
+                                            <img src="https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg"
+                                                alt="nodejs" width="30" height="30" />
+
+                                            <br>Express
+                                            <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg"
+                                                alt="express" width="30" height="30" />
+
+                                            <br>Next
+                                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+                                                alt="nextJS" width="30" height="30" />
+                                        </h4>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                         <br>
-                        <p class="animate" data-animate="zoomIn">
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg"
+                        <p class="dev-icons-row animate" data-animate="zoomIn">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg"
                                 alt="java" width="30" height="30" />
                             <img src="https://www.vectorlogo.zone/logos/apache_maven/apache_maven-icon.svg" alt="maven"
                                 width="30" height="30" />
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg"
+                                alt="spring" width="30" height="30" />
+                            &nbsp;
+                            &nbsp;
+
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
                                 alt="html5" width="30" height="30" />
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
                                 alt="css3" width="30" height="30" />
                             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
                                 alt="javascript" width="30" height="30" />
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                                alt="react" width="30" height="30" />
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
-                                alt="nodejs" width="30" height="30" />
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-                                alt="express" width="30" height="30" />
-                            <!-- <img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind css" width="30" height="30" /> -->
-                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg"
-                                alt="bootstrap" width="30" height="30" />
+                            &nbsp;
+                            &nbsp;
+
+                            <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/hugo/hugo-original.svg"
+                                alt="hugo" width="30" height="30" /> -->
                             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
                                 alt="sass" width="30" height="30" />
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg"
+                                alt="bootstrap" width="30" height="30" />
+                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-plain.svg"
+                                    alt="mui" width="30" height="30" />
+                            &nbsp;
+                            &nbsp;
+
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-plain.svg"
+                                alt="postgreSQL" width="30" height="30" />
                             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg"
                                 alt="mongodb" width="30" height="30" />
-                            <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="postgreSQL"
-                                width="30" height="30" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg"
+                                alt="graphQL" width="30" height="30" />
+                            &nbsp;
+                            &nbsp;
+
                             <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman"
                                 width="30" height="30" />
-                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30"
-                                height="30" />
-                            <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="GitHub" width="30"
-                                height="30" />
                             <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="30"
                                 height="30" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-plain.svg"
+                                alt="blrender" width="30" height="30" />
+                            <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/blender/blender-original.svg"
+                                alt="blender" width="30" height="30" /> -->
+                            <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/gimp/gimp-original.svg"
+                                alt="gimp" width="30" height="30" /> -->
+                            &nbsp;
+                            &nbsp;
+
+                            <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg"
+                                alt="npm" width="30" height="30" /> -->
+                            <img src="https://www.vectorlogo.zone/logos/github/github-tile.svg" alt="GitHub" width="30"
+                                height="30" />
+                            <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="30"
+                                height="30" />
+                            <img src="https://www.vectorlogo.zone/logos/docker/docker-tile.svg" alt="docker" width="30"
+                                height="30" />
+                            &nbsp;
+                            &nbsp;
+
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-plain.svg"
+                                alt="VS code" width="30" height="30" />
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg"
+                                alt="bash" width="30" height="30" />
+                            <img src="https://www.vectorlogo.zone/logos/apple/apple-tile.svg" alt="apple" width="30"
+                                height="30" />
+                            <!-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/msdos/msdos-original.svg"
+                                    alt="ms dos" width="30" height="30" /> -->
+
+
                         </p>
                     </div>
                 </div>
@@ -528,20 +602,9 @@
 
     </div> <!-- end fullpage -->
 
-    <div id="video">
-        <div class="preloader">
-            <div class="">
-                <!-- <div class="preloader-bounce"> -->
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-    </div>
-
     <div id="social-icons" class="animated-row section-inner">
         <div class="text-right">
-            <ul class="social-icons animate" data-animate="rotateInDownRight">
+            <ul class="social-icons animate" data-animate="rotateInDownLeft">
                 <li><a href="https://linkedin.com/in/jakob-g/" title="Linkedin"><i
                             class="fa-brands fa-linkedin-in"></i></a>
                 </li>
