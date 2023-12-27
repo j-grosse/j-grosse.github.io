@@ -337,6 +337,7 @@ video {
 .logo {
   -webkit-animation: wiggle 1.5s alternate;
   animation: wiggle 1.5s alternate;
+  filter: invert();
 }
 a#logo {
   text-decoration: none;
@@ -699,20 +700,26 @@ a#logo {
   margin-bottom: 0px;
 }
 .portfolio-item:hover .thumb-inner p {
-  font-size: 12px;
+  font-size: 13px;
   position: relative;
   opacity: 1;
   visibility: visible;
-  color: #2a2a2a;
+  color: #fff;
+  /* color: #2a2a2a; */
 }
-.portfolio-item:hover .thumb-inner {
+.portfolio-item:hover .thumb-inner { /* sliding card */
   border-radius: 10px;
   height: 100%;
-  background-color: rgba(14, 193, 202, 0.94); /* card bg color */
+  /* background-color: rgba(14, 193, 202, 0.94); */ /* card bg color */
+  background: linear-gradient(
+    to bottom,
+    rgba(22, 100, 100, 0.95) 0%,
+    rgba(29, 0, 0, 0.65) 100%
+  );
 }
 .portfolio-item:hover .thumb-inner h4 {
   /* margin-top: 30%; */
-  color: #1e1e1e;
+  color: #fff;
   margin-bottom: 20px;
 }
 
