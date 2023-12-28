@@ -135,7 +135,7 @@ video {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  opacity: 0.077; /* background video opacity */
+  opacity: 0.1; /* background video opacity */
 }
 #video:after {
   content: '';
