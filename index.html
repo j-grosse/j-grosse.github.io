@@ -29,14 +29,15 @@
         <!-- <div class="container-fluid animated-row animate" data-animate="fadeInDown"> -->
         <div class="navbar">
 
-            <script>
+            <!-- <script>
                 function reloadAndScroll() {
                     window.location.hash = "";
                     location.reload();
                 }
-            </script>
+            </script> -->
             <div class="logo">
-                <a href="#slide01" id="logo" title="Jakob Grosse - Web Entwickler" onclick="reloadAndScroll()">
+                <a href="#slide01" id="logo" title="Jakob Grosse - Web Entwickler">
+                    <!-- <a href="#slide01" id="logo" title="Jakob Grosse - Web Entwickler" onclick="reloadAndScroll()"> -->
                     <img src="images/logo.png" width="40px" />
                     <!-- https://fontsaddict.com/font/eurostar-black-extended.html -->
                 </a>
@@ -53,7 +54,7 @@
                             <!-- <li data-menuanchor="slide06"><a href="#slide06">Testimonials</a></li> -->
                             <li data-menuanchor="slide03"><a href="#slide03">Skills</a></li>
                             <li data-menuanchor="slide04"><a href="#slide04">Projekte</a></li>
-                            <li data-menuanchor="slide05"><a href="#slide05">Kontakt</a></li>
+                            <!-- <li data-menuanchor="slide05"><a href="#slide05">Kontakt</a></li> -->
                         </ul>
                     </div>
                 </nav>
@@ -565,7 +566,7 @@
             </div>
         </div>
 
-        <div class="section animated-row" data-section="slide05">
+        <!-- <div class="section animated-row" data-section="slide05">
             <div class="section-inner">
                 <div class="row justify-content-center">
                     <div class="col-md-7 wide-col-laptop">
@@ -598,7 +599,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div> <!-- end fullpage -->
 
@@ -609,6 +610,11 @@
                             class="fa-brands fa-linkedin-in"></i></a>
                 </li>
                 <li><a href="https://github.com/j-grosse/" title="GitHub"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://veilmail.io/e/FlvfeQ"
+                        onclick="event.preventDefault(); var width = 350; var height = 330; var screenX = (window.innerWidth - width) / 1; var screenY = (window.innerHeight - height) / 2; window.open('https://veilmail.io/e/FlvfeQ', 'veilmailpopup', 'width=' + width + ', height=' + height + ', screenX=' + screenX + ', screenY=' + screenY);">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
