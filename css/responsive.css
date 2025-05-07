@@ -201,7 +201,7 @@
   #header {
     position: fixed;
     top: 0;
-    z-index: 6666;
+    z-index: 1;
     backdrop-filter: blur(1px);
     background: linear-gradient(
       to bottom,

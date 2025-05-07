@@ -950,6 +950,7 @@ textarea.form-control {
 #portfolioModal .modal-content {
   background: #111 !important;
   color: #fff;
+  z-index: 10000;
 }
 
 #portfolioModal .modal-header,
